@@ -1,0 +1,105 @@
+.map-container {
+  height: 100vh;
+}
+
+.Map-SearchBox {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  height: 43px;
+  width: 700px;
+}
+.Map-SearchForm {
+  display: flex;
+  padding: 2px;
+  border-radius: 5px;
+  height: 35px;
+  width: 250px;
+}
+.SearchList-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  padding: 2px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 10px;
+}
+.SearchList {
+  margin-bottom: -1px;
+  width: 250px;
+  padding: 4px;
+}
+.SearchList li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 250px;
+  padding: 2px;
+}
+.SearchList li:hover {
+  background-color: rgb(221, 221, 221);
+  cursor: pointer;
+}
+.Map-Input {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+
+  border-radius: inherit;
+}
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Map-button {
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background-color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.UserLocationSearch {
+  width: 202px;
+}
+.UserLocationIcon {
+  width: 50px;
+}
+.divide {
+  width: 50px;
+}
+.km {
+  margin-top: 4px;
+  margin-left: 3px;
+  margin-right: 5px;
+}
+.Map-divide {
+  color: gray;
+
+  margin-top: 4px;
+}
+.Map-divide-container {
+  width: 20px;
+}

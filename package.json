@@ -1,0 +1,71 @@
+{
+  "name": "tabletop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fnando/email-provider-info": "^0.0.3",
+    "@react-pdf-viewer/core": "^3.6.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@turf/turf": "^6.5.0",
+    "bootstrap": "^5.2.0",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^9.6.6",
+    "framer-motion": "^6.3.16",
+    "mapbox-gl": "^2.9.2",
+    "moment": "^2.29.4",
+    "pdfjs-dist": "^2.14.305",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-auth-code-input": "^3.2.1",
+    "react-bootstrap": "^2.4.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-collapse": "^5.1.1",
+    "react-doc-viewer": "^0.1.5",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-helmet": "^6.1.0",
+    "react-horizontal-scrolling-menu": "^3.1.0",
+    "react-hover-video-player": "^9.6.1",
+    "react-icons": "^4.4.0",
+    "react-moment": "^1.1.2",
+    "react-multi-carousel": "^2.8.2",
+    "react-native-star-rating": "^1.1.0",
+    "react-password-strength-bar": "^0.4.1",
+    "react-pdf": "^5.7.2",
+    "react-phone-input-2": "^2.15.1",
+    "react-phone-number-input": "^3.2.3",
+    "react-places-autocomplete": "^7.3.0",
+    "react-pro-sidebar": "^0.7.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-step-progress-bar": "^1.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
